@@ -128,6 +128,12 @@ nav{
 
 }
 
+/* change the navbar styles on scroll using javascript  */
+.window-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2 rem rgba(0,0,0,0.2);
+}
+
 .nav_container{
     height: 100%;
     display: flex;
