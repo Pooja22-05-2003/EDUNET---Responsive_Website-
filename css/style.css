@@ -610,7 +610,7 @@ footer ul li a:hover{
       }
 
       .courses__container{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
       }
          /* ---------------FAQs------------- */
 
@@ -645,3 +645,129 @@ footer ul li a:hover{
       }
 }
 
+/*  ------------------MEDIA QUERIES (MOBILE)---------------- */
+
+@media screen and (max-width:600px){
+   .container{
+    width:var(--container-width-sm);
+   }
+
+   /* -----------------------NAVBAR-------------------- */
+   
+   .nav__menu{
+        right:3%;
+   }
+   
+   #open-menu-btn{
+    margin-right: 0rem;
+   }
+
+   #close-menu-btn{
+    margin-right: 0rem;
+   }
+
+      /* -----------------------HEADER-------------------- */
+    header{
+       
+        height:100vh;
+        margin-right: 0rem;
+    }
+
+    .header__container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        /* margin-top: 0; */
+    }
+
+    .header__left p{
+        margin-bottom:1.3rem
+    }
+
+
+    /* -----------------------CATEGORIES-------------------- */
+
+    .categories__right{
+        grid-template-columns: 1fr 1fr;
+        gap:0.7rem;
+    }
+
+    .category{
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .category__icon{
+        margin-top: 2px;
+        display: inline-block;
+    }
+
+    .categories__right{
+        /* background-color: red; */
+        margin-right: 0rem;
+    }
+
+  
+
+
+    /* -----------------------POPULAR COURSES-------------------- */
+    .courses{
+        margin-top: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
+    .courses__container{
+        grid-template-columns: 1fr;
+    }
+
+    
+    /* -----------------------FAQs-------------------- */
+
+    .faqs__container{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap:1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+
+ /* -----------------------TESTIMONIALS-------------------- */
+    .swiper-wrapper{
+        margin-left: 0.1rem;
+        background: red;
+
+    }
+
+    .testimonials__container{
+        
+        margin-bottom: 3rem;
+        margin-right: 2rem;
+        /* background: red; */
+        margin-left: 2rem;
+    
+    }
+    
+    .testimonial{
+        padding-top: 2rem;
+        padding-right: 0rem;
+        
+    }
+
+
+     /* -----------------------FOOTER-------------------- */
+
+     .footer__container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+     }
+
+     .footer__1 p{
+        margin: 1rem auto;
+     }
+   
+        .footer_socials{
+            justify-content: center;
+        }
+}
