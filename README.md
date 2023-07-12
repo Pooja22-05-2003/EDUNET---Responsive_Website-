@@ -2,6 +2,10 @@
 
 # Deployed on vercel (Link : https://edunet-responsive-website.vercel.app/)
 
+
+Edunet is a platform where educational organizations can showcase and sell their courses, and students can access valuable educational content. The website is designed to provide a seamless learning experience for students while highlighting the success stories of our organization.
+
+
 ## Tech Stack
 
 The Edunet website is built using the following technologies:
@@ -15,7 +19,7 @@ For handling the contact form and receiving messages, I integrated [Formspree](h
 I chose this tech stack to ensure a dynamic and interactive user experience while maintaining a clean and responsive design.
 
 
-Edunet is a platform where educational organizations can showcase and sell their courses, and students can access valuable educational content. The website is designed to provide a seamless learning experience for students while highlighting the success stories of our organization.
+
 
 ### Sections
 
