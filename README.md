@@ -1,6 +1,6 @@
 # EDUNET-Responsive-Website
 
-# Deployed on vercel (Link : https://edunet-responsive-website.vercel.app/)
+## Deployed on vercel (Link : https://edunet-responsive-website.vercel.app/)
 
 
 Edunet is a platform where educational organizations can showcase and sell their courses, and students can access valuable educational content. The website is designed to provide a seamless learning experience for students while highlighting the success stories of our organization.
