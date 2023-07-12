@@ -2,6 +2,19 @@
 
 # Deployed on vercel (Link : https://edunet-responsive-website.vercel.app/)
 
+## Tech Stack
+
+The Edunet website is built using the following technologies:
+
+- HTML
+- CSS
+- JavaScript
+
+For handling the contact form and receiving messages, I integrated [Formspree](https://formspree.io/). Formspree provides an easy and secure way to handle form submissions and receive messages from users.
+
+I chose this tech stack to ensure a dynamic and interactive user experience while maintaining a clean and responsive design.
+
+
 Edunet is a platform where educational organizations can showcase and sell their courses, and students can access valuable educational content. The website is designed to provide a seamless learning experience for students while highlighting the success stories of our organization.
 
 ### Sections
